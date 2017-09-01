@@ -8,35 +8,27 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBNetworking'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SBNetworking.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.1'
+  s.summary          = 'SBNetworking lays the groundwork for well organized API code.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This networking library allows you to make your API code incredibly modular. Each network call has its own class, which gives you a ton of flexibility. Some advantages include:
+- easily taking any subset of your API calls with you between multiple projects
+- elegantly handling lazy refactors to new API versions
+- enables strict adherence to SRP with your API calls, and all the advantages that entails
+- the flexibility to change the server configuration for individual calls or all of them at once
                        DESC
 
-  s.homepage         = 'https://github.com/Elliot/SBNetworking'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/schrockblock/SBNetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Elliot' => 'elliot.schrock@gmail.com' }
-  s.source           = { :git => 'https://github.com/Elliot/SBNetworking.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Elliot' => '' }
+  s.source           = { :git => 'https://github.com/schrockblock/sbnetworking.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/elliot_schrock'
 
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '9.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SBNetworking/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SBNetworking' => ['SBNetworking/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'OHHTTPStubs/Swift'
 end

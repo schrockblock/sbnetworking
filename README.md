@@ -1,6 +1,6 @@
 # SBNetworking
 
-[![CI Status](http://img.shields.io/travis/Elliot/SBNetworking.svg?style=flat)](https://travis-ci.org/Elliot/SBNetworking)
+[![CI Status](http://img.shields.io/travis/Elliot/SBNetworking.svg?style=flat)](https://travis-ci.org/schrockblock/sbnetworking)
 [![Version](https://img.shields.io/cocoapods/v/SBNetworking.svg?style=flat)](http://cocoapods.org/pods/SBNetworking)
 [![License](https://img.shields.io/cocoapods/l/SBNetworking.svg?style=flat)](http://cocoapods.org/pods/SBNetworking)
 [![Platform](https://img.shields.io/cocoapods/p/SBNetworking.svg?style=flat)](http://cocoapods.org/pods/SBNetworking)
@@ -19,10 +19,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SBNetworking"
 ```
-
-## Author
-
-Elliot, elliot.schrock@gmail.com
 
 ## License
 

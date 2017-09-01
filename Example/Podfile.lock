@@ -1,0 +1,50 @@
+PODS:
+  - Eson (0.3.3)
+  - Nimble (5.1.1)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
+  - Quick (1.0.0)
+  - SBNetworking (0.0.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Eson (from `https://github.com/schrockblock/eson`)
+  - Nimble (~> 5.1.1)
+  - OHHTTPStubs/Swift
+  - Quick (~> 1.0.0)
+  - SBNetworking (from `../`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Eson:
+    :git: https://github.com/schrockblock/eson
+  SBNetworking:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  Eson:
+    :commit: 0acec04a13c203dabdadde0ee5ae9f7f87797e3f
+    :git: https://github.com/schrockblock/eson
+
+SPEC CHECKSUMS:
+  Eson: d0614f6eacf354b3911e4578e4edea307bf7be7b
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  SBNetworking: a90b9127e2b793c0cba9827910e307e25570c62b
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: ee8e14de84b45887148f2b59987d9e74b94a6aa6
+
+COCOAPODS: 1.2.1
